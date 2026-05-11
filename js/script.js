@@ -341,7 +341,7 @@
 
     if (!slider) return;
 
-    const AVG_FARE = 2500; // Average fare in NGN
+    const AVG_FARE = 500; // Average fare in NGN
     const COMMISSION = 0.10; // 10% commission
 
     function updateEarnings() {

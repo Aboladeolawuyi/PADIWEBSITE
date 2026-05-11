@@ -1,0 +1,380 @@
+
+    /* ================= BUTTONS ================= */
+
+    .btn{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        gap:.6rem;
+        padding:.9rem 1.4rem;
+        border-radius:12px;
+        font-weight:600;
+        transition:.3s;
+        cursor:pointer;
+    }
+
+    .btn-primary{
+        background:var(--primary);
+        color:#fff;
+    }
+
+    .btn-primary:hover{
+        background:var(--primary-dark);
+        transform:translateY(-2px);
+    }
+
+    .btn-outline{
+        border:1.5px solid var(--primary);
+        color:var(--primary);
+    }
+
+    .btn-outline:hover{
+        background:var(--primary);
+        color:#fff;
+    }
+
+    .btn-sm{
+        padding:.7rem 1rem;
+        font-size:.9rem;
+    }
+
+    .btn-lg{
+        padding:1rem 1.6rem;
+    }
+
+    /* ================= HERO ================= */
+
+    .download-hero{
+        padding:120px 0 100px;
+        background:linear-gradient(to bottom,#f0fff4,#ffffff);
+        text-align:center;
+    }
+
+    .section-label{
+        display:inline-block;
+        padding:.5rem 1rem;
+        border-radius:999px;
+        font-size:.85rem;
+        font-weight:700;
+        margin-bottom:1rem;
+    }
+
+    .download-hero h1{
+        font-size:clamp(2.5rem,5vw,4.5rem);
+        line-height:1.1;
+        margin-bottom:1rem;
+        font-weight:800;
+    }
+
+    .download-hero p{
+        max-width:650px;
+        margin:auto;
+        color:var(--gray);
+        font-size:1.1rem;
+    }
+
+    .download-options{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:1.5rem;
+        margin-top:3rem;
+    }
+
+    .download-btn{
+        display:flex;
+        align-items:center;
+        gap:1rem;
+        background:#fff;
+        border:1px solid var(--border);
+        padding:1rem 1.5rem;
+        border-radius:18px;
+        box-shadow:0 10px 30px rgba(0,0,0,0.05);
+        transition:.3s;
+        min-width:250px;
+    }
+
+    .download-btn:hover{
+        transform:translateY(-5px);
+        border-color:var(--primary);
+    }
+
+    /* ================= QR ================= */
+
+    .qr-section{
+        padding:100px 0;
+        background:#fff;
+    }
+
+    .section-header{
+        text-align:center;
+        margin-bottom:4rem;
+    }
+
+    .section-header h2{
+        font-size:2.5rem;
+        margin:1rem 0;
+    }
+
+    .section-header p{
+        color:var(--gray);
+        max-width:650px;
+        margin:auto;
+    }
+
+    .qr-card{
+        background:#fff;
+        border:1px solid var(--border);
+        padding:3rem;
+        max-width:350px;
+        margin:auto;
+        border-radius:24px;
+        text-align:center;
+        box-shadow:0 10px 40px rgba(0,0,0,0.06);
+    }
+
+    .qr-placeholder{
+        width:180px;
+        height:180px;
+        background:#f1f5f9;
+        margin:auto auto 1.5rem;
+        border-radius:18px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:var(--primary);
+    }
+
+    /* ================= FEATURES ================= */
+
+    .features{
+        padding:100px 0;
+        background:#f8fafc;
+    }
+
+    .grid{
+        display:grid;
+        gap:2rem;
+    }
+
+    .grid-3{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .feature-card{
+        background:#fff;
+        padding:2rem;
+        border-radius:22px;
+        border:1px solid var(--border);
+        transition:.3s;
+    }
+
+    .feature-card:hover{
+        transform:translateY(-5px);
+        box-shadow:0 12px 30px rgba(0,0,0,0.08);
+    }
+
+    .feature-icon{
+        width:70px;
+        height:70px;
+        border-radius:18px;
+        background:rgba(0,200,83,0.1);
+        color:var(--primary);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-bottom:1.5rem;
+    }
+
+    .feature-card h3{
+        margin-bottom:.8rem;
+        font-size:1.3rem;
+    }
+
+    .feature-card p{
+        color:var(--gray);
+    }
+
+    /* ================= CTA ================= */
+
+    .cta-section{
+        padding:100px 0;
+        text-align:center;
+        background:linear-gradient(135deg,var(--primary),#00e676);
+        color:#fff;
+    }
+
+    .cta-section h2{
+        font-size:3rem;
+        margin-bottom:1rem;
+    }
+
+    .cta-section p{
+        margin-bottom:2rem;
+        font-size:1.1rem;
+    }
+
+    /* ================= FOOTER ================= */
+
+    .footer{
+        background:#0f172a;
+        color:#cbd5e1;
+        padding:80px 0 30px;
+    }
+
+    .footer-grid{
+        display:grid;
+        grid-template-columns:2fr 1fr 1fr 1fr;
+        gap:3rem;
+        margin-bottom:4rem;
+    }
+
+    .footer-brand p{
+        margin:1.5rem 0;
+        color:#94a3b8;
+    }
+
+    .footer-social{
+        display:flex;
+        gap:1rem;
+    }
+
+    .footer-social a{
+        width:42px;
+        height:42px;
+        border-radius:50%;
+        background:rgba(255,255,255,0.08);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        transition:.3s;
+    }
+
+    .footer-social a:hover{
+        background:var(--primary);
+        color:#fff;
+    }
+
+    .footer-links h4{
+        color:#fff;
+        margin-bottom:1.3rem;
+    }
+
+    .footer-links ul{
+        list-style:none;
+    }
+
+    .footer-links li{
+        margin-bottom:.9rem;
+    }
+
+    .footer-links a{
+        color:#94a3b8;
+        transition:.3s;
+    }
+
+    .footer-links a:hover{
+        color:#fff;
+    }
+
+    .footer-bottom{
+        border-top:1px solid rgba(255,255,255,0.08);
+        padding-top:2rem;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-wrap:wrap;
+        gap:1rem;
+    }
+
+    .flex{
+        display:flex;
+    }
+
+    .gap-2{
+        gap:1rem;
+    }
+
+    .text-sm{
+        font-size:.9rem;
+        color:#94a3b8;
+    }
+
+    /* ================= SCROLL TOP ================= */
+
+    .scroll-top{
+        position:fixed;
+        right:20px;
+        bottom:20px;
+        width:50px;
+        height:50px;
+        border:none;
+        border-radius:50%;
+        background:var(--primary);
+        color:#fff;
+        cursor:pointer;
+        box-shadow:0 10px 20px rgba(0,0,0,0.15);
+        transition:.3s;
+    }
+
+    .scroll-top:hover{
+        transform:translateY(-4px);
+    }
+
+    /* ================= ANIMATIONS ================= */
+
+    .fade-in{
+        animation:fadeIn .8s ease forwards;
+    }
+
+    @keyframes fadeIn{
+        from{
+            opacity:0;
+            transform:translateY(20px);
+        }
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
+    }
+
+    /* ================= RESPONSIVE ================= */
+
+    @media(max-width:992px){
+
+        .grid-3,
+        .footer-grid{
+            grid-template-columns:1fr 1fr;
+        }
+    }
+
+    @media(max-width:768px){
+
+        .nav-links,
+        .nav-cta{
+            display:none;
+        }
+
+        .mobile-toggle{
+            display:block;
+        }
+
+        .grid-3,
+        .footer-grid{
+            grid-template-columns:1fr;
+        }
+
+        .download-hero{
+            padding:100px 0 80px;
+        }
+
+        .section-header h2,
+        .cta-section h2{
+            font-size:2rem;
+        }
+
+        .footer-bottom{
+            flex-direction:column;
+            text-align:center;
+        }
+    }
